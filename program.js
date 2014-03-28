@@ -1,4 +1,5 @@
 setInterval(function() {
+  Game.RuinTheFun();
   for(i=Game.UpgradesInStore.length-1; i >= 0; i--){
     Game.UpgradesInStore[i].buy();
   }
